@@ -16,8 +16,6 @@
 
 **📖 Documentation: https://sachinmeenasipl.github.io/react-native-universal-sheet/**
 
-> **Status: early release (0.1.0).** The TypeScript API and the web renderer are complete and covered by 83 unit tests. The native iOS and Android bottom sheet is written but **not yet verified on a device**, and on native every variant is currently presented as a bottom sheet. See [Status & roadmap](https://sachinmeenasipl.github.io/react-native-universal-sheet/reference/roadmap).
-
 ## Features
 
 - **Native presentation**: iOS `UISheetPresentationController`, Android Material `BottomSheetDialog`. React renders only your content.
