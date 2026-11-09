@@ -1,0 +1,84 @@
+{
+  "name": "react-native-universal-sheet",
+  "version": "0.1.0",
+  "description": "Universal sheets for React Native: bottom sheets, modals, popovers and notification sheets, native on iOS and Android, with stacking and full customization. Supports React Native CLI, Expo and web.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "source": "src/index.ts",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "src",
+    "ios",
+    "android",
+    "react-native-universal-sheet.podspec",
+    "react-native.config.js",
+    "README.md",
+    "app.plugin.js"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-sheet",
+    "bottom-sheet",
+    "react-native-bottom-sheet",
+    "modal",
+    "react-native-modal",
+    "popover",
+    "notification-sheet",
+    "toast",
+    "sheet",
+    "stacked-sheets",
+    "native-modal",
+    "ios",
+    "android",
+    "expo",
+    "fabric",
+    "turbomodule",
+    "react-native-web",
+    "web",
+    "expo-plugin"
+  ],
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-native": ">=0.73.0",
+    "react-dom": ">=18.2.0",
+    "react-native-web": ">=0.19.0",
+    "expo": ">=51.0.0"
+  },
+  "codegenConfig": {
+    "name": "NativeSheetSpec",
+    "type": "components",
+    "jsSrcsDir": "src/specs",
+    "android": {
+      "javaPackageName": "com.universalsheet"
+    }
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "9.0.17",
+    "@types/jest": "29.5.14",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "jest": "29.7.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-web": "0.19.13",
+    "ts-jest": "29.2.5",
+    "typescript": "5.6.3"
+  },
+  "peerDependenciesMeta": {
+    "react-dom": {
+      "optional": true
+    },
+    "react-native-web": {
+      "optional": true
+    },
+    "expo": {
+      "optional": true
+    }
+  }
+}

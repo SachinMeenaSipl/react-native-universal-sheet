@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Expo and Metro
+.expo/
+.metro-health-check*
+web-build/
+
+# Android
+.gradle/
+local.properties
+.cxx/
+*.apk
+*.aab
+*.dex
+
+# iOS
+Pods/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
