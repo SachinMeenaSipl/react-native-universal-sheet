@@ -1,14 +1,24 @@
 {
   "name": "react-native-universal-sheet",
   "version": "0.1.0",
-  "description": "Universal sheets for React Native: bottom sheets, modals, popovers and notification sheets, native on iOS and Android, with stacking and full customization. Supports React Native CLI, Expo and web.",
+  "description": "Native bottom sheets, modals, alerts, toasts and popovers for React Native, Expo and web. Stacked sheets, snap points and full design control with one API on iOS, Android and web.",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "source": "src/index.ts",
   "license": "MIT",
+  "author": "Sachin Meena",
+  "homepage": "https://sachinmeenasipl.github.io/react-native-universal-sheet/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachinMeenaSipl/react-native-universal-sheet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SachinMeenaSipl/react-native-universal-sheet/issues"
+  },
   "files": [
     "LICENSE",
     "src",
+    "!src/__tests__",
     "ios",
     "android",
     "react-native-universal-sheet.podspec",
@@ -18,21 +28,33 @@
   ],
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "jest"
+    "test": "jest",
+    "docs:dev": "npm --prefix website run dev",
+    "docs:build": "npm --prefix website run build"
   },
   "keywords": [
     "react-native",
     "react-native-sheet",
     "bottom-sheet",
     "react-native-bottom-sheet",
+    "native-bottom-sheet",
     "modal",
     "react-native-modal",
+    "dialog",
+    "alert",
+    "action-sheet",
     "popover",
+    "tooltip",
+    "drawer",
     "notification-sheet",
     "toast",
+    "snackbar",
     "sheet",
     "stacked-sheets",
+    "snap-points",
     "native-modal",
+    "uisheetpresentationcontroller",
+    "bottomsheetdialog",
     "ios",
     "android",
     "expo",

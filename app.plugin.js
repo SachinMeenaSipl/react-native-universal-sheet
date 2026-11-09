@@ -8,7 +8,7 @@
  *
  * Expo Go does not contain third-party native modules, so use a development build.
  */
-const {withPodfileProperties} = require('@expo/config-plugins');
+const {withPodfileProperties} = require('expo/config-plugins');
 
 const IOS_DEPLOYMENT_TARGET = '15.0';
 

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" role="img" aria-label="react-native-universal-sheet: native bottom sheets, modals, popovers and toasts for React Native, Expo and web">
+  <defs>
+    <linearGradient id="b-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="b-glow" cx="0.82" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="b-shadow" x="-60%" y="-80%" width="220%" height="300%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="400" fill="url(#b-bg)"/>
+  <rect width="1280" height="400" fill="url(#b-glow)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="72" y="118" font-size="22" font-weight="600" fill="#a5f3fc" letter-spacing="2">REACT NATIVE · EXPO · WEB</text>
+    <text x="72" y="182" font-size="58" font-weight="800">Universal Sheet</text>
+    <text x="72" y="232" font-size="24" fill="#e0e7ff">Native bottom sheets, modals, popovers and toasts.</text>
+    <text x="72" y="266" font-size="24" fill="#e0e7ff">Stacking, snap points and full design control.</text>
+    <g font-size="18" font-weight="600">
+      <rect x="72" y="300" width="96" height="36" rx="18" fill="#ffffff" fill-opacity="0.14"/>
+      <text x="120" y="324" text-anchor="middle">iOS</text>
+      <rect x="180" y="300" width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.14"/>
+      <text x="240" y="324" text-anchor="middle">Android</text>
+      <rect x="312" y="300" width="96" height="36" rx="18" fill="#ffffff" fill-opacity="0.14"/>
+      <text x="360" y="324" text-anchor="middle">Expo</text>
+      <rect x="420" y="300" width="96" height="36" rx="18" fill="#ffffff" fill-opacity="0.14"/>
+      <text x="468" y="324" text-anchor="middle">Web</text>
+    </g>
+  </g>
+
+  <!-- phone: center modal -->
+  <g transform="translate(760 70) rotate(-6 80 150)" filter="url(#b-shadow)">
+    <rect width="160" height="310" rx="26" fill="#0f172a"/>
+    <rect x="7" y="7" width="146" height="296" rx="20" fill="#e0e7ff"/>
+    <rect x="20" y="36" width="76" height="9" rx="4.5" fill="#c7d2fe"/>
+    <rect x="20" y="56" width="120" height="58" rx="10" fill="#c7d2fe"/>
+    <rect x="7" y="7" width="146" height="296" rx="20" fill="#0f172a" fill-opacity="0.38"/>
+    <rect x="22" y="110" width="116" height="94" rx="14" fill="#ffffff"/>
+    <rect x="36" y="126" width="66" height="9" rx="4.5" fill="#4f46e5"/>
+    <rect x="36" y="144" width="88" height="6" rx="3" fill="#c7d2fe"/>
+    <rect x="36" y="156" width="74" height="6" rx="3" fill="#c7d2fe"/>
+    <rect x="36" y="176" width="88" height="18" rx="9" fill="#4f46e5"/>
+  </g>
+
+  <!-- phone: bottom sheet -->
+  <g transform="translate(950 40)" filter="url(#b-shadow)">
+    <rect width="170" height="330" rx="28" fill="#0f172a"/>
+    <rect x="7" y="7" width="156" height="316" rx="22" fill="#f1f5f9"/>
+    <rect x="20" y="36" width="80" height="10" rx="5" fill="#cbd5e1"/>
+    <rect x="20" y="58" width="130" height="64" rx="10" fill="#cbd5e1"/>
+    <rect x="7" y="7" width="156" height="316" rx="22" fill="#0f172a" fill-opacity="0.35"/>
+    <path d="M7 166 a18 18 0 0 1 18 -18 h120 a18 18 0 0 1 18 18 v135 a22 22 0 0 1 -22 22 h-112 a22 22 0 0 1 -22 -22 z" fill="#ffffff"/>
+    <rect x="71" y="156" width="28" height="4" rx="2" fill="#94a3b8"/>
+    <rect x="20" y="174" width="76" height="10" rx="5" fill="#4f46e5"/>
+    <rect x="20" y="194" width="130" height="26" rx="8" fill="#e0e7ff"/>
+    <rect x="20" y="226" width="130" height="26" rx="8" fill="#e0e7ff"/>
+    <rect x="20" y="266" width="130" height="24" rx="12" fill="#4f46e5"/>
+  </g>
+
+  <!-- floating toast -->
+  <g transform="translate(1100 300)" filter="url(#b-shadow)">
+    <rect width="150" height="44" rx="14" fill="#111827"/>
+    <circle cx="24" cy="22" r="8" fill="#22d3ee"/>
+    <rect x="42" y="18" width="88" height="8" rx="4" fill="#f9fafb"/>
+  </g>
+</svg>

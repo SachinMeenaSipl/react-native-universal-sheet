@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-label="Three phones showing a bottom sheet, a center modal and a toast">
+  <defs>
+    <linearGradient id="h-sheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <filter id="h-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#1e1b4b" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <!-- left phone: center modal -->
+  <g transform="translate(18 92) rotate(-8 100 200)" filter="url(#h-shadow)">
+    <rect width="190" height="370" rx="30" fill="#111827"/>
+    <rect x="8" y="8" width="174" height="354" rx="24" fill="#e0e7ff"/>
+    <rect x="22" y="40" width="90" height="10" rx="5" fill="#c7d2fe"/>
+    <rect x="22" y="64" width="146" height="70" rx="12" fill="#c7d2fe"/>
+    <rect x="8" y="8" width="174" height="354" rx="24" fill="#111827" fill-opacity="0.38"/>
+    <rect x="26" y="130" width="138" height="112" rx="16" fill="#ffffff"/>
+    <rect x="42" y="148" width="80" height="10" rx="5" fill="#4f46e5"/>
+    <rect x="42" y="168" width="104" height="7" rx="3.5" fill="#c7d2fe"/>
+    <rect x="42" y="182" width="90" height="7" rx="3.5" fill="#c7d2fe"/>
+    <rect x="42" y="206" width="106" height="22" rx="11" fill="#4f46e5"/>
+  </g>
+
+  <!-- right phone: toast -->
+  <g transform="translate(312 92) rotate(8 100 200)" filter="url(#h-shadow)">
+    <rect width="190" height="370" rx="30" fill="#111827"/>
+    <rect x="8" y="8" width="174" height="354" rx="24" fill="#ecfeff"/>
+    <rect x="22" y="40" width="90" height="10" rx="5" fill="#a5f3fc"/>
+    <rect x="22" y="64" width="146" height="70" rx="12" fill="#a5f3fc"/>
+    <rect x="22" y="146" width="146" height="12" rx="6" fill="#a5f3fc"/>
+    <rect x="22" y="166" width="110" height="12" rx="6" fill="#a5f3fc"/>
+    <rect x="22" y="190" width="146" height="70" rx="12" fill="#a5f3fc"/>
+    <rect x="30" y="310" width="130" height="34" rx="12" fill="#1f2937"/>
+    <circle cx="48" cy="327" r="7" fill="#22d3ee"/>
+    <rect x="62" y="323" width="76" height="8" rx="4" fill="#f9fafb"/>
+  </g>
+
+  <!-- center phone: bottom sheet (front) -->
+  <g transform="translate(165 40)" filter="url(#h-shadow)">
+    <rect width="190" height="400" rx="32" fill="#0f172a"/>
+    <rect x="8" y="8" width="174" height="384" rx="26" fill="#f1f5f9"/>
+    <rect x="22" y="40" width="96" height="11" rx="5.5" fill="#cbd5e1"/>
+    <rect x="22" y="64" width="146" height="78" rx="12" fill="#cbd5e1"/>
+    <rect x="22" y="154" width="146" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="8" y="8" width="174" height="384" rx="26" fill="#0f172a" fill-opacity="0.35"/>
+    <path d="M8 196 a20 20 0 0 1 20 -20 h134 a20 20 0 0 1 20 20 v170 a26 26 0 0 1 -26 26 h-122 a26 26 0 0 1 -26 -26 z" fill="url(#h-sheet)"/>
+    <rect x="79" y="186" width="32" height="5" rx="2.5" fill="#94a3b8"/>
+    <rect x="24" y="208" width="88" height="11" rx="5.5" fill="#4f46e5"/>
+    <rect x="24" y="232" width="142" height="30" rx="10" fill="#e0e7ff"/>
+    <rect x="24" y="270" width="142" height="30" rx="10" fill="#e0e7ff"/>
+    <rect x="24" y="308" width="142" height="30" rx="10" fill="#e0e7ff"/>
+    <rect x="24" y="350" width="142" height="26" rx="13" fill="#4f46e5"/>
+    <!-- snap markers -->
+    <g stroke="#06b6d4" stroke-width="2" stroke-dasharray="4 4">
+      <line x1="-14" y1="196" x2="-2" y2="196"/>
+      <line x1="-14" y1="96" x2="-2" y2="96"/>
+    </g>
+  </g>
+</svg>

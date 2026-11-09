@@ -30,3 +30,7 @@ xcuserdata/
 *.log
 .DS_Store
 Thumbs.db
+
+# Docs site
+website/.vitepress/dist/
+website/.vitepress/cache/
